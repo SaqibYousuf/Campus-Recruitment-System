@@ -1,0 +1,147 @@
+.header {
+    h3 {
+        text-align: center;
+        font-size: 30px;
+        color: #1465a0;
+        margin: 0px;
+        padding: 20px;
+    }
+}
+.LoginBody {
+    height: 80%;
+    width: 70%;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .Image {
+        background-image: url(./../Images/500_F_148419573_WYzFfS4IyDSHNphtU4D6NELM8xxMyxqL.jpg);
+        height: 50%;
+        width: 30%;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .logInAs {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        h5 {
+            margin: 0px;
+            font-size: 23px;
+            color: #31accd;
+        }
+        button {
+            width: 50%;
+            height: 40px;
+            margin: 8px;
+            background: #1465a0;
+            color: white;
+            border: 1px solid #1465a0;
+            /* box-shadow: 0 0 black; */
+            font-weight: 800;
+            letter-spacing: 1.2px;
+            border-radius: 12px;
+        }
+    }
+    .SignInForm {
+        width: 70%;
+        height: 100%;
+        padding: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        // display: none;
+        h5 {
+            text-align: center;
+            margin: 0px;
+            font-size: 23px;
+            color: #31accd;
+            span {
+                font-size: 13px;
+                color: black;
+                font-weight: 400;
+            }
+        }
+        input {
+            margin-bottom: 10px;
+            width: 40%;
+            height: 40px;
+            padding: 0px 20px;
+            font-size: 18px;
+        }
+        .btnDiv {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .signInBtn {
+                padding: 9px;
+                color: white;
+                background: #6cadcb;
+                border: none;
+            }
+        }
+    }
+    .register {
+        margin: 5px;
+        font-size: 13px;
+        span {
+            font-weight: 500;
+            &:hover {
+                text-decoration: underline;
+                cursor: pointer;
+            }
+        }
+    }
+    .SignUpBody {
+        width: 46%;
+        // display: none;
+
+        h5 {
+            text-align: center;
+            font-size: 26px;
+            color: #30adcb;
+            margin: 0px;
+            padding: 20px;
+            span {
+                font-size: 17px;
+                color: black;
+                font-weight: 500;
+            }
+        }
+        .NameDiv {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            .Name {
+                width: 45%;
+                height: 30px;
+                margin-bottom: 10px;
+                padding: 0px 5px;
+            }
+        }
+        .input {
+            height: 30px;
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 0px 5px;
+        }
+        .btnDiv {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .signUpBtn {
+                padding: 9px;
+                color: white;
+                background: #6cadcb;
+                border: none;
+            }
+        }
+    }
+}
